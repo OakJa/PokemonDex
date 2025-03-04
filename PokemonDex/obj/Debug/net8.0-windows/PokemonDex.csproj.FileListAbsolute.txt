@@ -15,3 +15,4 @@ C:\Users\moith\source\repos\PokemonDex\PokemonDex\obj\Debug\net8.0-windows\refin
 C:\Users\moith\source\repos\PokemonDex\PokemonDex\obj\Debug\net8.0-windows\PokemonDex.pdb
 C:\Users\moith\source\repos\PokemonDex\PokemonDex\obj\Debug\net8.0-windows\PokemonDex.genruntimeconfig.cache
 C:\Users\moith\source\repos\PokemonDex\PokemonDex\obj\Debug\net8.0-windows\ref\PokemonDex.dll
+C:\Users\moith\source\repos\PokemonDex\PokemonDex\obj\Debug\net8.0-windows\PokemonDex.sourcelink.json

@@ -22,7 +22,7 @@ namespace PokemonDex
             this.Total = 245;
             this.Name = "Noibat";
             this.image =
-               Resource1.ResourceManager.GetObject("noibat") as byte[] ?? Array.Empty<byte>();
+               Resource1.ResourceManager.GetObject("noibat1") as byte[] ?? Array.Empty<byte>();
         }
     }
 }

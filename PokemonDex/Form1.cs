@@ -9,34 +9,30 @@ namespace PokemonDex
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            //Create Pikachu object
             Houndour houndour = new Houndour();
+            //add Pikachu object to the list
+            this.pokemonsList.Add(houndour);
+            //display the Pokemon's name and image
             this.displayPokemon(houndour);
         }
-
-
+        /// <summary>
+        /// Display the Pokemon's name and image
+        /// </summary>
+        /// <param name="pokemon"></param>
         private void displayPokemon(Pokemon pokemon)
         {
-            this.label1.Text = pokemon.getName();
-            byte[] imageData = pokemon.getImage();
-
-            if (imageData == null || imageData.Length == 0)
+            this.lbPokemonName.Text = pokemon.getName();
+            using (var ms = new MemoryStream(pokemon.getImage()))
             {
-                MessageBox.Show("Invalid image data.");
-                return;
-            }
-
-            using (var ms = new MemoryStream(imageData))
-            {
-                try
-                {
-                    this.pictureBox1.Image = Image.FromStream(ms);
-                }
-                catch (ArgumentException ex)
-                {
-                    MessageBox.Show("Failed to load image: " + ex.Message);
-                }
+                this.pictureBox1.Image = Image.FromStream(ms);
             }
         }
+        
+
+
+    
+        
 
 
 
@@ -57,6 +53,17 @@ namespace PokemonDex
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Noibat noibat = new Noibat();
+            this.displayPokemon(noibat);
+        }
+
+        private void pictureBox1_Click_2(object sender, EventArgs e)
         {
 
         }

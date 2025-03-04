@@ -22,7 +22,7 @@ namespace PokemonDex
             this.Total = 330;
             this.Name = "Houndour";
             this.image =
-               Resource1.ResourceManager.GetObject("houndour") as byte[] ?? Array.Empty<byte>();
+               Resource1.ResourceManager.GetObject("houndour1") as byte[] ?? Array.Empty<byte>();
         }
     }
 }
