@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,7 +11,7 @@ namespace PokemonDex
     {
         public Noibat()
         {
-            this.Type = Pokemon_Type.Flying;
+            this.Type = PokemonType.flying;
             this.Height = 0.5;
             this.Weight = 8.0;
             this.HP = 40;
@@ -21,8 +22,11 @@ namespace PokemonDex
             this.Speed = 55;
             this.Total = 245;
             this.Name = "Noibat";
+            this.Species = $"Sound Wave, " +
+                 $"Defog,\n " +
+                 $"Dragon Rush";
             this.image =
-               Resource1.ResourceManager.GetObject("noibat1") as byte[] ?? Array.Empty<byte>();
+               Resource1.ResourceManager.GetObject("noibat") as byte[] ?? Array.Empty<byte>();
         }
     }
 }

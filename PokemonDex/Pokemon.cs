@@ -3,54 +3,55 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using PokemonDex;
 
 namespace PokemonDex
-
 {
-    public enum Pokemon_Type
+    public enum PokemonType 
     {
-        Dark,
-
-        Fire,
-
-        Dragon,
-
-        Flying
+        normal,
+        flying,
+        electric,
+        fire,
+        water,
+        grass,
+        ice,
+        fighting,
+        poison,
+        ground,
+        rock,
+        bug,
+        dragon,
+        ghost,
+        dark,
+        psychic,
 
 
     }
-        
-    }
-public class Pokemon
-{
-    protected string Name;
-    protected int HP;
-    protected int Attack;
-    protected int Defense;
-    protected int SpecialAttack;
-    protected int SpecialDefense;
-    protected int Speed;
-    protected int Total;
-    protected double Height;
-    protected double Weight;
-    protected string Species;
-    protected Pokemon_Type Type;
-    protected byte[] image;
-
-    public Pokemon() { }
-
-    public string getName()
+    public class Pokemon
     {
-        return this.Name;
-    }
-
-    public byte[] getImage()
-    {
-        return this.image;
+        //class attributes
+        public string Name;
+        public int HP;
+        public int Attack;
+        public int Defense;
+        public int SpecialAttack;
+        public int SpecialDefense;
+        public int Speed;
+        public int Total;
+        public double Height;
+        public double Weight;
+        public string Species;
+        public PokemonType Type;
+        public byte[] image;
+        //constructor
+        public Pokemon() { }
+        //methods
+        public string getName() { 
+            return this.Name;
+        }
+        public byte[] getImage()
+        {
+            return this.image;
+        }
     }
 }
-
-
-
-
