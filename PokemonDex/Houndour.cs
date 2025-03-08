@@ -8,9 +8,12 @@ namespace PokemonDex
 {
     public class Houndour : Pokemon
     {
+       
+
         public Houndour()
         {
             this.Type = PokemonType.fire;
+            this.Type2 = PokemonType.dark; // Added secondary type
             this.Height = 0.6;
             this.Weight = 10.8;
             this.HP = 45;
@@ -21,7 +24,7 @@ namespace PokemonDex
             this.Speed = 65;
             this.Total = 330;
             this.Name = "Houndour";
-            this.Species = 
+            this.Species =
                  $"Flash Fire, " +
                  $"Early Bird, " +
                  $"Unnerve";

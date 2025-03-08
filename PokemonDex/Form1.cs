@@ -28,7 +28,8 @@ namespace PokemonDex
         private void displayPokemon(Pokemon pokemon)
         {
             this.lbPokemonName.Text = pokemon.getName();
-            this.lbnametype.Text = pokemon.Type.ToString();
+            this.lbnametype.Text = $"Type:  {pokemon.Type} Type2:  {pokemon.Type2}";
+
 
             // Display other stats in lbStatus
             this.lbStatus.Text = $"HP: {pokemon.HP}\n" +

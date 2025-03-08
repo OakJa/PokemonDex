@@ -10,6 +10,7 @@ namespace PokemonDex
     {
         public Ceruledge() { 
         this.Type = PokemonType.ghost;
+            this.Type2 = PokemonType.dark;
             this.Height = 1.5;
             this.Weight = 61.0;
             this.HP = 75;

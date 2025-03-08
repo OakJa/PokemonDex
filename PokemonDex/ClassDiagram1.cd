@@ -17,7 +17,7 @@
   <Enum Name="PokemonDex.PokemonType" Collapsed="true">
     <Position X="5.25" Y="1.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AABQAAICAAgFAAAAAAAIAAlAAAAAAAQAJAAAAAAAAAA=</HashCode>
+      <HashCode>AABwAAICAAgFAAAAAAAIAAlAAAAAAAQAJAAAQAAAAAA=</HashCode>
       <FileName>Pokemon.cs</FileName>
     </TypeIdentifier>
   </Enum>

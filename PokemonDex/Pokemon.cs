@@ -27,6 +27,8 @@ namespace PokemonDex
 
 
     }
+
+    
     public class Pokemon
     {
         //class attributes
@@ -42,6 +44,7 @@ namespace PokemonDex
         public double Weight;
         public string Species;
         public PokemonType Type;
+        public PokemonType Type2;
         public byte[] image;
         //constructor
         public Pokemon() { }

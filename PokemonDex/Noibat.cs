@@ -12,6 +12,7 @@ namespace PokemonDex
         public Noibat()
         {
             this.Type = PokemonType.flying;
+            this.Type2 = PokemonType.dragon;
             this.Height = 0.5;
             this.Weight = 8.0;
             this.HP = 40;
