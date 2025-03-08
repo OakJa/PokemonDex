@@ -23,9 +23,7 @@ namespace PokemonDex
             this.Speed = 55;
             this.Total = 245;
             this.Name = "Noibat";
-            this.Species = $"Sound Wave, " +
-                 $"Defog,\n " +
-                 $"Dragon Rush";
+            this.Species = "Sound Wave Pokémon";
             this.image =
                Resource1.ResourceManager.GetObject("noibat") as byte[] ?? Array.Empty<byte>();
         }

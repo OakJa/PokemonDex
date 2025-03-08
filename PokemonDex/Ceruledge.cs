@@ -21,9 +21,7 @@ namespace PokemonDex
             this.Speed = 85;
             this.Total = 525;
             this.Name = "Ceruledge";
-            this.Species = "Cursed Body, " +
-                 "Night Slash\n, " +
-                 "Shadow Claw";
+            this.Species = "Fire Blades Pokémon";
             this.image = Resource1.ResourceManager.GetObject("ceruledge") as byte[] ?? Array.Empty<byte>();
         }
     }

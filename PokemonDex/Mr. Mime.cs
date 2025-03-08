@@ -11,6 +11,7 @@ namespace PokemonDex
         public MrMime()
         {
             this.Type = PokemonType.psychic;
+            this.Type2 = PokemonType.fairy;
             this.Height = 1.3;
             this.Weight = 54.5;
             this.HP = 40;
@@ -21,7 +22,7 @@ namespace PokemonDex
             this.Speed = 90;
             this.Total = 460;
             this.Name = "SatoshiFater";
-            this.Species = "Barrier, Confusion, Double Slap\n, Light Screen, Meditate, Mimic\n, Psybeam, Reflect\n, Substitute, Thunder Wave";
+            this.Species = "Barrier Pokémon";
             this.image =
                 Resource1.ResourceManager.GetObject("mr-mime") as byte[] ?? Array.Empty<byte>();
         }

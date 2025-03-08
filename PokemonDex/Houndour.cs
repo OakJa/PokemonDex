@@ -24,10 +24,7 @@ namespace PokemonDex
             this.Speed = 65;
             this.Total = 330;
             this.Name = "Houndour";
-            this.Species =
-                 $"Flash Fire, " +
-                 $"Early Bird, " +
-                 $"Unnerve";
+            this.Species ="Dark Pokémon";
             this.image =
                Resource1.ResourceManager.GetObject("houndour") as byte[] ?? Array.Empty<byte>();
         }

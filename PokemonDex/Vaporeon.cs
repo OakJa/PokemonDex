@@ -20,7 +20,7 @@ namespace PokemonDex
             this.Speed = 65;
             this.Total = 525;
             this.Name = "Vaporeon";
-            this.Species = "Water Absorb, Hydration";
+            this.Species = "Bubble Jet Pokémon";
             this.image =
                 Resource1.ResourceManager.GetObject("vaporeon") as byte[] ?? Array.Empty<byte>();
         }

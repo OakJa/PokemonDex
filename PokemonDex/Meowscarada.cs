@@ -10,20 +10,19 @@ namespace PokemonDex
     {
         public Meowscarada()
         {
-            this.Type = PokemonType.normal;
+            this.Type = PokemonType.dark;
+            this.Type2 = PokemonType.grass;
             this.Height = 0.6;
             this.Weight = 4.2;
             this.HP = 74;
-            this.Attack = 48;
+            this.Attack = 110;
             this.Defense = 76;
-            this.SpecialAttack = 83;
+            this.SpecialAttack = 81;
             this.SpecialDefense = 81;
-            this.Speed = 104;
-            this.Total = 476;
+            this.Speed = 123;
+            this.Total = 530;
             this.Name = "Meowscarada";
-            this.Species = "Technician, \n" +
-                 "Pickup, " +
-                 "Unnerve";
+            this.Species = "Magician Pokémon";
             this.image =
                 Resource1.ResourceManager.GetObject("meowscarada") as byte[] ?? Array.Empty<byte>();
         }

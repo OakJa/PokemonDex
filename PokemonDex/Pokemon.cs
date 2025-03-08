@@ -24,7 +24,9 @@ namespace PokemonDex
         ghost,
         dark,
         psychic,
-
+        fairy,
+        steel,
+        grassp,
 
     }
 
